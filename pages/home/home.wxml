@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text wx:for="{{message}}" wx:key="*this">{{item.name+'--'+item.age}}</text>
+<view>{{counter}}</view>
+<button bindtap="handleClick" size="mini">+</button>
