@@ -5,11 +5,11 @@ Page({
 
   },
   onLoad(){
-    request({
-      url:'/home/multidata',
-    }).then(res=>{
-      console.log(res);
-    })
+    // request({
+    //   url:'/home/multidata',
+    // }).then(res=>{
+    //   console.log(res);
+    // })
   },
   onShareAppMessage: function () {
     
