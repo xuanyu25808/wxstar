@@ -1,0 +1,9 @@
+/* components/swiper/swiper.wxss */
+.home-swiper{
+  width: 100%;
+  height: 390rpx;
+}
+.swiper-item-img{
+  width: 100%;
+  height: 390rpx;
+}

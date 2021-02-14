@@ -1,4 +1,4 @@
-const baseURL = 'http://106.54.54.237:8000/api/mn'
+import {baseURL} from './config'
 export function request(options) {
   return new Promise((resolve, reject) => {
     wx.request({

@@ -1,0 +1,10 @@
+<!--components/goods/goodsListItem/goodsListItem.wxml-->
+<view class="goods-list-item">
+  <image class="goods-list-item-img" src="{{item.show.img}}" ></image>
+  <view class="goods-list-item-title">{{item.title}}</view>
+  <view class="goods-list-item-desc" >
+    <text class="goods-list-item-price" >￥{{item.price}}</text>
+    <text class="goods-list-item-star" >⭐</text>
+    <text class="goods-list-item-cfav" >{{item.cfav}}</text>
+  </view>
+</view>

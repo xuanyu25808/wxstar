@@ -16,7 +16,6 @@ App({
     }
   },
   check_token(token){
-    console.log('验证操作')
     wx.request({
       url: 'http://123.207.32.32:3000/auth',
       method:'post',
@@ -38,7 +37,6 @@ App({
     })
   },
   login(){
-    console.log('登录操作')
     wx.login({
       success:(res)=>{
         // 1.获取token

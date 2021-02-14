@@ -1,1 +1,13 @@
 <!--pages/home/home.wxml-->
+<view class="home">
+  <!-- 轮播图 -->
+  <s-swiper banners="{{banners}}" />
+  <!-- 推荐 -->
+  <s-recommend recommend="{{recommend}}" />
+  <!-- 流行 -->
+  <s-popular />
+  <!-- tab选项卡 -->
+  <s-tab title="{{title}}" bind:tabClick="tabClick" />
+  <!-- 商品展示 -->
+  <s-goods goods="{{goods[currentIndex]}}"/>
+</view>
